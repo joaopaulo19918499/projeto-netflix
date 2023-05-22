@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body {
+        background-color: black;
+    }
+
+    div#assistir {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #playButton {
+        background-color: #c92222;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 25px; /* Adiciona o arredondamento do botão */
+      }
+      
+      #playButton:hover {
+        background-color: #0056b3;
+      }
+      
+      #playButton.playing {
+        background-color: #dc3545;
+      }
+      
+      #playButton.playing:hover {
+        background-color: #a71d2a;
+      }
